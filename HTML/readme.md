@@ -16,6 +16,8 @@ Homework1
  มี link ไปยัง 2 หน้าที่เหลือ (index.html + profile.html)
 4. เมื่อเรียบร้อยแล้ว ให้ส่ง web site นี้ขึ้น github.io ของตัวเอง
 
+https://akkpol.github.io/Homework_Codecamp_9/HTML/HW1/index.html
+
 Homework2
 ให้สร้าง form ชื่อ booking.html โดยมีหน้าตาดังรูป
 ลิ้งอ้างอิง //       https://docs.google.com/presentation/d/1mjCT8oavXvXRyYxl5bQWPRBqzPX3a0hA/edit#slide=id.p42
@@ -23,6 +25,8 @@ Homework2
 1. ห้ามใช้ Bootstrap 
 2. สนใจเฉพาะส่วนที่วงสีแดง
 3. upload ขึ้น github.io  
+
+https://akkpol.github.io/Homework_Codecamp_9/HTML/HW2/booking.html
 
 Homework3
 ให้สร้าง phonebook.html ในแบบ responsive 
@@ -33,5 +37,6 @@ Homework3
 
 <ชื่อ user>.github.io/phonebook.html
 
+https://akkpol.github.io/Homework_Codecamp_9/HTML/HW3/card.html
 
 
