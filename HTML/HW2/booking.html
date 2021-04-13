@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <style>
+            .bookfrom1{
+                display: inline-block; 
+                width: 10em;
+                height: 3.5em;
+                                            
+            }
+            .bookfrom2{
+                display: inline-block; 
+                width: 4.83em;
+                height: 3.5em;
+            }
+            .box-center{
+                margin: 2em 2em 2em 2em;
+            }
+            .input-size-1{
+                background: rgb(255, 255, 255);
+                width: 150px;
+                height: 30px;
+                border-width: 1px;
+                border-color: gray;
+                border-radius: 4px;           
+                box-shadow: 1px 1px 2px gray;
+                
+              
+            }
+            .input-size-2{
+                background: rgb(255, 255, 255);
+                width: 70px;
+                height: 30px;
+                border-width: 1px;
+                border-color: gray;
+                border-radius: 4px;           
+                box-shadow: 1px 1px 2px gray;
+            }
+            .button-1{
+                width: 100px;
+                height: 35px;              
+                background-color: rgb(32, 184, 211);
+                border-radius: 5px;
+                border-color: initial;
+                margin-top: 2em;
+                }
+            .button-1:hover{
+              
+                background-color: rgb(179, 181, 182);
+               
+                }
+            .boxform{
+                width: 400px;
+                height: 400px;
+                margin: 0em auto 0em auto;
+            }
+            .legend-font{
+                font-weight: bold;
+            }
+           
+                
+        </style>
+    </head>
+        <body>
+            <form >
+                <fieldset class="boxform">
+                    <legend class="legend-font">Book Flight</legend>
+                    <div class="box-center">
+                    <div class="bookfrom1" >                    
+                            <label for="Flying">Flying from:</label><br>
+                            <select id="Flying" name="Flying" class="input-size-1">
+                            <option value="Chiang Mai">Chiang Mai</option>
+                            <option value="Kalasin ">Kalasin </option>
+                            <option value="Khon Kaen">Khon Kaen</option>
+                            <option value="Roi Et">Roi Et</option>
+                          </select>
+                     </div >       
+                        <div class="bookfrom1" >
+                        <label for="Flyingto">To:</label><br>
+                        <select id="Flyingto" name="Flyingto" class="input-size-1">
+                        <option value="Chiang Mai">Chiang Mai</option>
+                        <option valu e="Kalasin ">Kalasin </option>
+                        <option value="Khon Kaen">Khon Kaen</option>
+                        <option value="Roi Et">Roi Et</option>
+                        </select>
+                        </div>   
+                    </div>
+                </div>
+                <div class="box-center">
+                    <div>
+                             <div class="bookfrom1" >
+                                <label for="depart">Departinng</label><br>
+                                <input type="date" class="input-size-1">                       
+                            </div>
+                            <div class="bookfrom1">
+                                <label for="depart">Returning</label><br>
+                                <input type="date" class="input-size-1">                       
+                            </div>
+                    </div>
+                </div>
+                <div class="box-center">
+                    <div>
+                        <div class="bookfrom2">
+                            <label for="adult">Departinng</label><br>
+                            <input type="number" class="input-size-2">                       
+                        </div>
+                        <div class="bookfrom2">
+                            <label for="Child">Child</label><br>
+                            <input type="number" class="input-size-2">                       
+                        </div>
+                        <div class="bookfrom2">
+                            <label for="Ifant">Ifant</label><br>
+                            <input type="number" class="input-size-2">                       
+                        </div>
+                        <div class="bookfrom2">
+                        <label for="country">Country:</label><br>
+                        <select id="Flyingto" name="Flyingto"class="input-size-2">
+                        <option value="USD">USD</option>
+                        <option valu e="CNY ">CNY </option>
+                        <option value="Khon Kaen">JPY</option>
+                        <option value="THB">THB</option>
+                        </select>                     
+                        </div>
+                    </div>
+                        <div>
+                            <input type="button" value="SEARCH" class="button-1">
+                        </div>
+                    </div>
+                </fieldset>
+              </form>
+        </body>
+    
+</html>
