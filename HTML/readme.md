@@ -37,6 +37,6 @@ Homework3
 
 <ชื่อ user>.github.io/phonebook.html
 
-https://akkpol.github.io/Homework_Codecamp_9/HTML/HW3/card.html
+https://akkpol.github.io/Homework_Codecamp_9/HTML/HW3/phonebook.html
 
 
