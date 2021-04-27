@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            margin: 0;
+        }
+        body{
+          height: 200vh;
+        }
+        .big{
+            width: 50%;
+            height: 50%;
+            position: fixed;
+            background-color: white;            
+        }
+        .small{
+            width: 25%;
+            height: 25vh;
+            border-radius: 2em;
+        }
+        .inside{
+            width: 10%;
+            height: 10vh;
+        }
+
+        .red{
+            position: absolute;
+            background:linear-gradient(rgb(238, 197, 197),red);
+            display: inline-block;
+            
+        }
+        .green{
+            position: absolute;
+            background: linear-gradient(rgb(216, 240, 216),green);
+            display: inline-block;
+            right: 0;
+        }
+
+        .blue{
+            position: absolute;
+            background: linear-gradient(blue,rgb(197, 197, 255));
+            display: inline-block;
+            bottom: 0;
+        }
+        .pink{
+            position: absolute;
+            background: linear-gradient(pink,rgb(240, 233, 234));
+            display: inline-block;
+            right: 0;
+            bottom: 0;
+        }
+        .black{
+            position: absolute;
+            background:black;
+            display: inline-block;
+            right: 0;
+            bottom: 0;
+        }
+        .center{left: 50%; top: 50%; transform: translate(-50%, -50%);}
+        .center-top{
+            left: 50%; top: 0; transform: translate(-50%, 0);
+        }
+        .center-buttom{
+            left: 50%; bottom: 0; transform: translate(-50%, 0);
+        }
+        
+         
+
+    </style>
+</head>
+<body>
+        <div class="small red"></div>
+        <div class="small green"></div>   
+        <div class="small blue"></div>
+        <div class="small pink"></div>   
+
+        <div class="big center">
+            <div class="inside red"></div>
+            <div class="inside black center-top"></div>
+            <div class="inside green"></div>   
+            <div class="inside blue"></div>
+            <div class="inside black center-buttom"></div>
+            <div class="inside pink"></div>   
+        </div>
+</body>
+</html>

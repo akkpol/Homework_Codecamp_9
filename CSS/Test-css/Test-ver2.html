@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+
+      }
+      body {
+        height: 200vh;
+      }
+      .top{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .buttom{
+        display: flex;
+        justify-content: space-between;
+      }
+      .buttom .inside{
+        margin-top: 30vh;
+      }
+      .buttom .small{
+          margin-top: 50vh;
+      }
+      .center{
+        display: flex;
+        justify-content: center;
+        
+      }
+      .big {
+        width: 50%;
+        height: 50vh;
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+      }
+      .small {
+        width: 25%;
+        height: 25vh;
+        border-radius: 2em;
+      }
+      .inside {
+        width: 10%;
+        height: 10vh;
+      }
+      .red {
+        background: linear-gradient(rgb(238, 197, 197), red);
+      }
+      .green {
+        background: linear-gradient(rgb(216, 240, 216), green);
+      }
+
+      .blue {
+        background: linear-gradient(blue, rgb(197, 197, 255));
+ 
+      }
+      .pink {
+        background: pink;
+      
+      }
+      .black {
+        background: black;
+
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="top">
+      <div class="red small"></div>
+      <div class="green small"></div>
+    </div>
+    <div class="center">
+        <div class="big">
+            <div class="top">
+                <div class="red inside"></div>
+                <div class="black inside"></div>
+                <div class="green inside"></div>
+              </div>
+              <div class="buttom">
+                <div class="blue inside"></div>
+                <div class="black inside"></div>
+                <div class="pink inside"></div>
+              </div>
+        </div>
+    </div>
+    <div class="buttom">
+        <div class="blue small"></div>
+        <div class="pink small"></div>
+      </div>
+     
+  </body>
+
+</html>
