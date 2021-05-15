@@ -1,6 +1,6 @@
 Hw1
 เปลี่ยนสี พื้้นหลัง และตัวหนังสือ
-https://github.com/akkpol/Homework_Codecamp_9/blob/main/Java1/HW/index.js
+https://akkpol.github.io/Homework_Codecamp_9/Java1/HW/JS.html
 Hw2
 แสดงสูตรคูณ โดยให้ผู้ใช้เลือกว่าจะดูสูตรคูณแม่อะไร
-https://github.com/akkpol/Homework_Codecamp_9/blob/main/Java1/HW/innerHtml.html
+https://akkpol.github.io/Homework_Codecamp_9/Java1/HW/innerHtml.html
