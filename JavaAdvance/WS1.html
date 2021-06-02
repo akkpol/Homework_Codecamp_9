@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*ให้เขี้ยนโปรแกรมรับค่า Key และ Value ของ Proper
+          ties ของ Object
+          โดยให้ Key เป็นชื่อผลไม้ Value  เป็น จำนวนของผลไม้ ถ้าจำนวนมีมากกว่า 1 ให้เติม s ต่อท้ายลงไปใน key นั้น
+        */
+        let key = prompt("Enter Key: ")
+        let obj = {};
+        while (key !== "stop"){
+            value = prompt(`Enter the number of ${key}`);
+            if (Number(value) > 1){
+                    key = key + "s";
+            }
+            obj[key] = value;   
+            key = prompt("Enter Key: ");
+        }
+        
+        console.log(obj);
+    </script>
+</body>
+</html>
