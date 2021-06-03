@@ -58,20 +58,18 @@
         console.log(intersection(set1,set2));
 
         //ข้อ3.3
-        let set3 = new Set([2,2,3,4,5,7,8]);
-        let set4 = new Set([5,7,8,9,10,99]);
+        let set3 = new Set([2,,3,4,5,7,8]);
+        let set4 = new Set([2,5,8,9,10,99]);
                     
-        function sumset(set3,set4) {
-            let _sumset = new Set()
-            for (let elem of set3) {    
-               for(elem2 of set4){
-                   _sumset.add(elem-elem2)
-               }
-               return _sumset              
-            }                  
+        function difference(setA, setB) {
+            let _difference = new Set(setA)
+            for (let elem of setB) {
+                _difference.delete(elem)
+            }
+        return _difference
         }
               
-       console.log(sumset(set3,set4))
+       console.log(difference(set3,set4))
         //ข้อ3.4
         function xor(setA, setB) {
             let _difference = new Set(setA)
