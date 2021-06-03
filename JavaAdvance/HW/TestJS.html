@@ -58,7 +58,7 @@
         console.log(intersection(set1,set2));
 
         //ข้อ3.3
-        let set3 = new Set([2,,3,4,5,7,8]);
+        let set3 = new Set([2,,3,4,5,7,8,55,99]);
         let set4 = new Set([2,5,8,9,10,99]);
                     
         function difference(setA, setB) {
@@ -67,10 +67,10 @@
                 _difference.delete(elem)
             }
         return _difference
-        }
-              
+        }             
        console.log(difference(set3,set4))
-        //ข้อ3.4
+
+        //ข้อ3.4+
         function xor(setA, setB) {
             let _difference = new Set(setA)
             for (let elem of setB) {
